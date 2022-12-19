@@ -20,7 +20,7 @@ RUN git clone \
   --branch "v${YAPI_VERSION}" \
   --single-branch \
   --depth 1 \
-  https://github.com/YMFE/yapi.git .
+  https://github.com/Gyyi/yapi.git .
 
 # 拷贝启动脚本
 RUN cp /yapi/scripts/start.js ./start.js
