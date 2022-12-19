@@ -17,9 +17,6 @@ WORKDIR /yapi/vendors
 
 # 拉取 YApi 源码
 RUN git clone \
-  --branch "v${YAPI_VERSION}" \
-  --single-branch \
-  --depth 1 \
   https://github.com/Gyyi/yapi.git .
 
 # 拷贝启动脚本
